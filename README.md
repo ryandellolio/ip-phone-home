@@ -12,5 +12,5 @@ Make executable
 
 Add (for hourly)
 ```
-0 * * * * /bin/bash /root/check_dns_and_restart_wg.sh.sh
+0 * * * * /bin/bash /root/check_dns_and_restart_wg.sh
 ```
