@@ -10,7 +10,7 @@ Make executable
 ## Add to crontab
 ```sudo crontab -e```
 
-Add
+Add (for hourly)
 ```
-0 * * * * /bin/bash /root/your_script_name.sh
+0 * * * * /bin/bash /root/check_dns_and_restart_wg.sh.sh
 ```
